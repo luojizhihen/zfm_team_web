@@ -5,9 +5,30 @@
 
 本项目已部署到 GitHub Pages：[https://luojizhihen.github.io/zfm_team_web/](https://luojizhihen.github.io/zfm_team_web/)
 
-## 🚀 快速开始
+## 🚀 快速部署
 
-### 开发
+### 一键部署（推荐）✨
+```bash
+./scripts/deploy.sh
+```
+
+脚本会自动引导你完成所有步骤！预计 5 分钟完成。
+
+### 手动部署（3 步）
+1. 合并 PR → [查看 PRs](https://github.com/luojizhihen/zfm_team_web/pulls)
+2. 启用 Pages → [设置页面](https://github.com/luojizhihen/zfm_team_web/settings/pages)（选择 "GitHub Actions"）
+3. 等待部署 → [查看状态](https://github.com/luojizhihen/zfm_team_web/actions)
+
+### 📚 完整文档
+**[→ 查看完整部署文档导航](./DOCS_INDEX.md)**
+
+快速链接：
+- [快速开始](./QUICKSTART.md) - 3 步完成
+- [自动化说明](./AUTOMATION_SUMMARY.md) - 了解工具能做什么
+- [详细步骤](./DEPLOYMENT_STEPS.md) - 完整指南
+- [检查清单](./DEPLOYMENT_CHECKLIST.md) - 跟踪进度
+
+## 🛠️ 开发
 
 ```bash
 # 安装依赖
@@ -23,23 +44,7 @@ npm run build
 npm run preview
 ```
 
-## 📚 部署文档
-
-### 快速部署（3 步完成）
-
-查看 **[QUICKSTART.md](./QUICKSTART.md)** - 最简化的部署步骤
-
-或者运行自动化脚本：
-```bash
-./scripts/deploy.sh
-```
-
-### 详细文档
-
-- **[DEPLOYMENT_STEPS.md](./DEPLOYMENT_STEPS.md)** - 详细的分步操作指南（中文）
-- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - 技术配置说明
-
-## 🛠️ 技术栈
+## 🔧 技术栈
 
 - Vue 3 - 渐进式 JavaScript 框架
 - Vite - 下一代前端构建工具
