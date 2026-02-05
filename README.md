@@ -1,9 +1,6 @@
 # zfm_team_web
 芝麻分组队web端
 
-## 🌐 在线访问
-
-本项目已部署到 GitHub Pages：[https://luojizhihen.github.io/zfm_team_web/](https://luojizhihen.github.io/zfm_team_web/)
 
 ## 🚀 快速部署
 
